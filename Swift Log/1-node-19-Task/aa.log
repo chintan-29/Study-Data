@@ -1,0 +1,113 @@
+   0.000 MODE: WORK
+   0.000 WORK TYPES: WORK
+   0.001 WORKERS: 1 RANKS: 0 - 0
+   0.001 SERVERS: 1 RANKS: 1 - 1
+   0.001 WORK WORKERS: 1 RANKS: 0 - 0
+   0.000 MODE: SERVER
+   0.033 function:swift:constants
+   0.034 enter function: __entry
+   0.034 allocated u:wcounter=<1>
+   0.034 allocated void: <3>
+   0.035 store: <4>=path ../wordcount/input/data00
+   0.035 insert: <1>["0"]=<file 5 is_mapped 1>
+   0.036 store: <7>=path ../wordcount/input/data01
+   0.036 insert: <1>["1"]=<file 8 is_mapped 1>
+   0.036 store: <10>=path ../wordcount/input/data02
+   0.036 insert: <1>["2"]=<file 11 is_mapped 1>
+   0.036 store: <13>=path ../wordcount/input/data03
+   0.036 insert: <1>["3"]=<file 14 is_mapped 1>
+   0.037 store: <16>=path ../wordcount/input/data04
+   0.037 insert: <1>["4"]=<file 17 is_mapped 1>
+   0.037 store: <19>=path ../wordcount/input/data05
+   0.037 insert: <1>["5"]=<file 20 is_mapped 1>
+   0.037 store: <22>=path ../wordcount/input/data06
+   0.037 insert: <1>["6"]=<file 23 is_mapped 1>
+   0.038 store: <25>=path ../wordcount/input/data07
+   0.038 insert: <1>["7"]=<file 26 is_mapped 1>
+   0.038 store: <28>=path ../wordcount/input/data08
+   0.038 insert: <1>["8"]=<file 29 is_mapped 1>
+   0.038 store: <31>=path ../wordcount/input/data09
+   0.038 insert: <1>["9"]=<file 32 is_mapped 1>
+   0.038 store: <34>=path ../wordcount/input/data10
+   0.039 insert: <1>["10"]=<file 35 is_mapped 1>
+   0.039 store: <37>=path ../wordcount/input/data11
+   0.039 insert: <1>["11"]=<file 38 is_mapped 1>
+   0.039 store: <40>=path ../wordcount/input/data12
+   0.039 insert: <1>["12"]=<file 41 is_mapped 1>
+   0.039 store: <43>=path ../wordcount/input/data13
+   0.040 insert: <1>["13"]=<file 44 is_mapped 1>
+   0.040 store: <46>=path ../wordcount/input/data14
+   0.040 insert: <1>["14"]=<file 47 is_mapped 1>
+   0.040 store: <49>=path ../wordcount/input/data15
+   0.040 insert: <1>["15"]=<file 50 is_mapped 1>
+   0.040 store: <52>=path ../wordcount/input/data16
+   0.040 insert: <1>["16"]=<file 53 is_mapped 1>
+   0.041 store: <55>=path ../wordcount/input/data17
+   0.041 insert: <1>["17"]=<file 56 is_mapped 1>
+   0.041 store: <58>=path ../wordcount/input/data18
+   0.041 insert: <1>["18"]=<file 59 is_mapped 1>
+   0.042 exec: ./grep1.sh ../wordcount/input/data00 output1/data00.txt {stderr output1/log00.log}
+   0.042 shell: ./grep1.sh ../wordcount/input/data00 output1/data00.txt stderr=output1/log00.log
+  35.641 shell command duration: 35.598
+  35.641 exec: ./grep1.sh ../wordcount/input/data18 output1/data18.txt {stderr output1/log18.log}
+  35.642 shell: ./grep1.sh ../wordcount/input/data18 output1/data18.txt stderr=output1/log18.log
+  78.193 shell command duration: 42.551
+  78.193 exec: ./grep1.sh ../wordcount/input/data17 output1/data17.txt {stderr output1/log17.log}
+  78.194 shell: ./grep1.sh ../wordcount/input/data17 output1/data17.txt stderr=output1/log17.log
+ 108.797 shell command duration: 30.603
+ 108.797 exec: ./grep1.sh ../wordcount/input/data16 output1/data16.txt {stderr output1/log16.log}
+ 108.797 shell: ./grep1.sh ../wordcount/input/data16 output1/data16.txt stderr=output1/log16.log
+ 151.909 shell command duration: 43.112
+ 151.910 exec: ./grep1.sh ../wordcount/input/data15 output1/data15.txt {stderr output1/log15.log}
+ 151.910 shell: ./grep1.sh ../wordcount/input/data15 output1/data15.txt stderr=output1/log15.log
+ 186.856 shell command duration: 34.947
+ 186.857 exec: ./grep1.sh ../wordcount/input/data14 output1/data14.txt {stderr output1/log14.log}
+ 186.857 shell: ./grep1.sh ../wordcount/input/data14 output1/data14.txt stderr=output1/log14.log
+ 217.000 shell command duration: 30.143
+ 217.000 exec: ./grep1.sh ../wordcount/input/data13 output1/data13.txt {stderr output1/log13.log}
+ 217.000 shell: ./grep1.sh ../wordcount/input/data13 output1/data13.txt stderr=output1/log13.log
+ 248.924 shell command duration: 31.923
+ 248.924 exec: ./grep1.sh ../wordcount/input/data12 output1/data12.txt {stderr output1/log12.log}
+ 248.924 shell: ./grep1.sh ../wordcount/input/data12 output1/data12.txt stderr=output1/log12.log
+ 286.021 shell command duration: 37.098
+ 286.022 exec: ./grep1.sh ../wordcount/input/data11 output1/data11.txt {stderr output1/log11.log}
+ 286.022 shell: ./grep1.sh ../wordcount/input/data11 output1/data11.txt stderr=output1/log11.log
+ 329.081 shell command duration: 43.060
+ 329.082 exec: ./grep1.sh ../wordcount/input/data10 output1/data10.txt {stderr output1/log10.log}
+ 329.082 shell: ./grep1.sh ../wordcount/input/data10 output1/data10.txt stderr=output1/log10.log
+ 362.760 shell command duration: 33.679
+ 362.761 exec: ./grep1.sh ../wordcount/input/data09 output1/data09.txt {stderr output1/log09.log}
+ 362.761 shell: ./grep1.sh ../wordcount/input/data09 output1/data09.txt stderr=output1/log09.log
+ 393.085 shell command duration: 30.324
+ 393.085 exec: ./grep1.sh ../wordcount/input/data08 output1/data08.txt {stderr output1/log08.log}
+ 393.085 shell: ./grep1.sh ../wordcount/input/data08 output1/data08.txt stderr=output1/log08.log
+ 428.202 shell command duration: 35.116
+ 428.203 exec: ./grep1.sh ../wordcount/input/data07 output1/data07.txt {stderr output1/log07.log}
+ 428.203 shell: ./grep1.sh ../wordcount/input/data07 output1/data07.txt stderr=output1/log07.log
+ 467.567 shell command duration: 39.364
+ 467.567 exec: ./grep1.sh ../wordcount/input/data06 output1/data06.txt {stderr output1/log06.log}
+ 467.567 shell: ./grep1.sh ../wordcount/input/data06 output1/data06.txt stderr=output1/log06.log
+ 497.249 shell command duration: 29.682
+ 497.249 exec: ./grep1.sh ../wordcount/input/data05 output1/data05.txt {stderr output1/log05.log}
+ 497.250 shell: ./grep1.sh ../wordcount/input/data05 output1/data05.txt stderr=output1/log05.log
+ 533.668 shell command duration: 36.418
+ 533.668 exec: ./grep1.sh ../wordcount/input/data04 output1/data04.txt {stderr output1/log04.log}
+ 533.668 shell: ./grep1.sh ../wordcount/input/data04 output1/data04.txt stderr=output1/log04.log
+ 574.776 shell command duration: 41.107
+ 574.776 exec: ./grep1.sh ../wordcount/input/data03 output1/data03.txt {stderr output1/log03.log}
+ 574.776 shell: ./grep1.sh ../wordcount/input/data03 output1/data03.txt stderr=output1/log03.log
+ 617.781 shell command duration: 43.004
+ 617.781 exec: ./grep1.sh ../wordcount/input/data02 output1/data02.txt {stderr output1/log02.log}
+ 617.781 shell: ./grep1.sh ../wordcount/input/data02 output1/data02.txt stderr=output1/log02.log
+ 669.878 shell command duration: 52.097
+ 669.879 exec: ./grep1.sh ../wordcount/input/data01 output1/data01.txt {stderr output1/log01.log}
+ 669.879 shell: ./grep1.sh ../wordcount/input/data01 output1/data01.txt stderr=output1/log01.log
+ 703.462 shell command duration: 33.583
+ 703.463 Container <1> deep closed
+ 703.463 store: <3>=void
+ 703.463 deeprule_finish: 3
+ 703.464 exec: ./merg.sh output1/data00.txt output1/data01.txt output1/data02.txt output1/data03.txt output1/data04.txt output1/data05.txt output1/data06.txt output1/data07.txt output1/data08.txt output1/data09.txt output1/data10.txt output1/data11.txt output1/data12.txt output1/data13.txt output1/data14.txt output1/data15.txt output1/data16.txt output1/data17.txt output1/data18.txt {stdout output1/final-output.out}
+ 703.464 shell: ./merg.sh output1/data00.txt output1/data01.txt output1/data02.txt output1/data03.txt output1/data04.txt output1/data05.txt output1/data06.txt output1/data07.txt output1/data08.txt output1/data09.txt output1/data10.txt output1/data11.txt output1/data12.txt output1/data13.txt output1/data14.txt output1/data15.txt output1/data16.txt output1/data17.txt output1/data18.txt stdout=output1/final-output.out
+ 764.590 shell command duration: 61.125
+ 764.691 turbine finalizing
+ 764.660 turbine finalizing

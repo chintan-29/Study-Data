@@ -1,0 +1,13 @@
+/* Split file into head and tail */
+app (file out1) split (file inp) {
+    "bash wordcount.sh" @inp @out1;
+}
+
+main {
+    // Test multiple outputs for app
+    // Test autogeneration of file names
+    file infile = input_file("aa.txt");
+    file tail<"tail.txt">;
+    tail = split(infile);
+}
+

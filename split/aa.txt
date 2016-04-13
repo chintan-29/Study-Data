@@ -1,0 +1,25 @@
+hello world usa india iit
+what if I want to sort ps aux by the time column... if 
+I do the sort as a number it sorts by the minutes but not by the seconds,
+and since the start column sometimes has dates and sometimes has times
+I can't change the breaking point to ':' and specify a column...
+hello123
+hello124
+hello120
+hello235
+hello003ch
+hello431
+hellasd3
+hellowqe
+hellopasde
+hell5rdfdv
+hello 1234
+hell 343545
+hell 123
+hell 06374
+hell 345433
+hel 213 342
+hel 23 123
+hel qw erer
+hel qw 232
+ hel er 454

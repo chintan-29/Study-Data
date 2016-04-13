@@ -1,0 +1,1 @@
+string lines[] = file_lines(input(mtc2.swift));
